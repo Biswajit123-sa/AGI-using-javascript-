@@ -19,7 +19,7 @@ const port = process.env.PORT || 5000
 
 app.use(express.json())
 
-const client=new MongoClient("mongodb+srv://admin25102002_db_user:l1upY5UehEzgpeaO@cluster0.tlcbuwu.mongodb.net")
+const client=new MongoClient("add your db url")
 
 const checkpointer=new MongoDBSaver({client})
 
